@@ -56,6 +56,10 @@
   line-height: 0px;
 }
 
+.ui.left.aligned.four.wide.column {
+  padding-top: 10px;
+}
+
 .ui.left.aligned.twelve.wide.column {
   padding-left: 100px;
 }

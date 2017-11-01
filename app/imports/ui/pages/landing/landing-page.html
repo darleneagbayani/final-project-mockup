@@ -21,8 +21,8 @@
   <div class="ui centered grid">
     <div class="center aligned column">
       <div class="ui five item inverted borderless menu">
-        <a class="item">
-          HOME
+        <a class="{{isActiveRoute "Landing_Page"}} item" href="{{pathFor "Landing_Page" username=routeUserName}}">
+        HOME
         </a>
         <a class="item">
           SCHEDULE
@@ -43,7 +43,10 @@
 
   <div class="landing-section-2">
     <div class="ui centered grid">
-      <div class="ui center aligned eleven wide column">
+      <div class="ui left aligned four wide column">
+      <img class="ui large centered image" src="https://preview.ibb.co/fhdzkw/VV_LOGO.png"></div>
+      <div class="ui center aligned eight wide column">
+        <h1>Welcome to Vending Vote</h1>
         Over half of the items in the vending machines on campus are liked by absolutely no one. Based on what’s left in
         the vending machine at the end of the day, it’s clear to every student and the staff who restocks the vending
         machine what sells and what doesn’t. Unfortunately, making changes to the vending machine will be at best,
@@ -55,7 +58,7 @@
         week, now students will help the staff decide. Students who create an account in Vending Vote will participate
         in a monthly “voting game."
       </div>
-  </div>
+      </div>
   </div>
 
   <div class="landing-section-5">

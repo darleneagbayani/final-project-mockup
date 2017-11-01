@@ -21,14 +21,14 @@
   <div class="ui centered grid">
     <div class="center aligned column">
       <div class="ui five item inverted borderless menu">
-        <a class="item">
-          HOME
+        <a class="{{isActiveRoute "Landing_Page"}} item" href="{{pathFor "Landing_Page" username=routeUserName}}">
+        HOME
         </a>
         <a class="item">
           SCHEDULE
         </a>
         <a class="{{isActiveRoute "Nomination_Page"}} item" href="{{pathFor "Nomination_Page" username=routeUserName}}">
-          NOMINATE
+        NOMINATE
         </a>
         <a class="item">VOTE
         </a>

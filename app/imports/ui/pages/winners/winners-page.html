@@ -21,8 +21,8 @@
   <div class="ui centered grid">
     <div class="center aligned column">
       <div class="ui five item inverted borderless menu">
-        <a class="item">
-          HOME
+        <a class="{{isActiveRoute "Landing_Page"}} item" href="{{pathFor "Landing_Page" username=routeUserName}}">
+        HOME
         </a>
         <a class="item">
           SCHEDULE
@@ -43,7 +43,7 @@
 
   <div class="landing-section-2">
     <div class="ui centered grid">
-      <div class="ui fluid left aligned four wide column">
+      <div class="ui left aligned four wide column">
         <div class="win history">
         <h1>Winner History</h1>
         <h2>Beverages</h2>

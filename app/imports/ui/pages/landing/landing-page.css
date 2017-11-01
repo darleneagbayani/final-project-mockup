@@ -13,7 +13,7 @@
 }
 
 .landing-section-2 {
-  padding: 20px 10px 20px 10px;
+  padding: 20px 40px 20px 40px;
   background-color: #FFFFFF;
   color:  #727272;
 }
@@ -41,4 +41,25 @@
   font-family: 'Roboto', sans-serif;
   font-weight: 900;
   font-size: 36px;
+}
+
+.ui.center.aligned.eight.wide.column {
+  padding-top: 100px;
+  padding-bottom: 100px;
+  padding-left: 50px;
+  white-space: normal;
+  font-size: 14px;
+}
+
+.ui.left.aligned.four.wide.column {
+  padding-top: 125px;
+  padding-bottom: 100px;
+  white-space: normal;
+}
+
+.ui.center.aligned.eight.wide.column h1 {
+  color: #FEE06F;
+  font-size: 40px;
+  line-height: 40px;
+  font-weight: bold;
 }
