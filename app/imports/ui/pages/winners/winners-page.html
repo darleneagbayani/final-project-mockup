@@ -1,0 +1,73 @@
+<template name="Winners_Page">
+
+  <div class="landing-section-1">
+    <div class="ui grid">
+
+      <div class="row">
+        <div class="ui right aligned sixteen wide column">
+          {{> Cas_Login }}
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="ui center aligned sixteen wide column">
+          <img class="ui centered medium image" src="https://image.ibb.co/bQAxmR/Untitled_1.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui centered grid">
+    <div class="center aligned column">
+      <div class="ui five item inverted borderless menu">
+        <a class="item">
+          HOME
+        </a>
+        <a class="item">
+          SCHEDULE
+        </a>
+        <a class="{{isActiveRoute "Nomination_Page"}} item" href="{{pathFor "Nomination_Page" username=routeUserName}}">
+        NOMINATE
+        </a>
+        <a class="item">VOTE
+        </a>
+        <a class="{{isActiveRoute "Winners_Page"}} item" href="{{pathFor "Winners_Page" username=routeUserName}}">
+        WINNERS
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img class="ui fluid image" src="https://i.imgur.com/sJ1AjGB.jpg">
+
+  <div class="landing-section-2">
+    <div class="ui centered grid">
+      <div class="ui fluid left aligned four wide column">
+        <div class="win history">
+        <h1>Winner History</h1>
+        <h2>Beverages</h2>
+        Snacks
+        </div>
+      </div>
+      <div class="ui left aligned twelve wide column">
+        <h1>This weeks beverage winners</h1>
+        Starbucks Iced Coffee<br>
+        Yerba Mate Tea<br>
+        Arizona Green Tea<br><br>
+
+        Will be available starting 12/01/2017 @ 8:00am<br><br>
+        Please see schedule for upcoming nomination and voting dates.
+      </div>
+  </div>
+  </div>
+
+  <div class="landing-section-5">
+    <div class="ui grid">
+      <div class="ui center aligned sixteen wide column">
+        {{> Cas_Login}}
+      </div>
+    </div>
+  </div>
+
+</template>

@@ -1,0 +1,108 @@
+<template name="Nomination_Page">
+
+  <div class="landing-section-1">
+    <div class="ui grid">
+
+      <div class="row">
+        <div class="ui right aligned sixteen wide column">
+          {{> Cas_Login }}
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="ui center aligned sixteen wide column">
+          <img class="ui centered medium image" src="https://image.ibb.co/bQAxmR/Untitled_1.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui centered grid">
+    <div class="center aligned column">
+      <div class="ui five item inverted borderless menu">
+        <a class="item">
+          HOME
+        </a>
+        <a class="item">
+          SCHEDULE
+        </a>
+        <a class="{{isActiveRoute "Nomination_Page"}} item" href="{{pathFor "Nomination_Page" username=routeUserName}}">
+          NOMINATE
+        </a>
+        <a class="item">VOTE
+        </a>
+        <a class="{{isActiveRoute "Winners_Page"}} item" href="{{pathFor "Winners_Page" username=routeUserName}}">
+        WINNERS
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img class="ui fluid image" src="https://i.imgur.com/TLwjkDn.jpg">
+
+  <div class="landing-section-2">
+    <div class="ui content centered grid">
+      <div class="ui left aligned four wide column">
+        <div class="nomination history">
+        <h1>Nomination</h1>
+        <h2>Categories</h2>
+          <h3>Beverages</h3>
+          Snacks
+        </div>
+      </div>
+      <div class="ui left aligned twelve wide column">
+        <h2>Search beverages by brand</h2>
+        <div class="ui fluid selection dropdown">
+          <input type="hidden" name="user">
+          <i class="dropdown icon"></i>
+          <div class="default text">Select Beverage brands</div>
+          <div class="menu">
+            <div class="item" data-value="jenny">
+              <img class="ui mini avatar image" src="/images/avatar/small/jenny.jpg">
+              Jenny Hess
+            </div>
+            <div class="item" data-value="elliot">
+              <img class="ui mini avatar image" src="/images/avatar/small/elliot.jpg">
+              Elliot Fu
+            </div>
+            <div class="item" data-value="stevie">
+              <img class="ui mini avatar image" src="/images/avatar/small/stevie.jpg">
+              Stevie Feliciano
+            </div>
+            <div class="item" data-value="christian">
+              <img class="ui mini avatar image" src="/images/avatar/small/christian.jpg">
+              Christian
+            </div>
+            <div class="item" data-value="matt">
+              <img class="ui mini avatar image" src="/images/avatar/small/matt.jpg">
+              Matt
+            </div>
+            <div class="item" data-value="justen">
+              <img class="ui mini avatar image" src="/images/avatar/small/justen.jpg">
+              Justen Kitsune
+            </div>
+          </div>
+        </div>
+<br><br>
+        <h2>Search beverages by name</h2>
+        <div class="ui fluid category search">
+          <div class="ui icon input">
+            <input class="prompt" type="text" placeholder="Search beverage name...">
+            <i class="search icon"></i>
+          </div>
+          <div class="results"></div>
+        </div>
+      </div>
+  </div>
+  </div>
+
+  <div class="landing-section-5">
+    <div class="ui grid">
+      <div class="ui center aligned sixteen wide column">
+        {{> Cas_Login}}
+      </div>
+    </div>
+  </div>
+
+</template>

@@ -1,0 +1,66 @@
+.landing-section-1 {
+  padding: 10px 10px 30px 10px;
+  background-color: #FFFFFF;
+  color: #727272;
+}
+
+.ui.five.item.inverted.borderless.menu {
+  border-radius: 0px;
+  background-color: #FEE06F;
+  text-align: center;
+  font-size: 20px;
+  font-weight: 300;
+}
+
+.landing-section-2 {
+  padding: 20px 10px 20px 10px;
+  background-color: #FFFFFF;
+  color:  #727272;
+}
+
+.landing-section-3 {
+  padding: 20px 10px 30px 30px;
+  background-color: #00B5AD;
+  color: #E5F9E7;
+}
+
+.landing-section-5 {
+  padding: 20px 10px 20px 10px;
+  background-color: #FEE06F;
+  color: #FFFFFF;
+}
+
+
+.landing-section-1-welcome {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 72px;
+}
+
+.landing-section-header {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+  font-size: 36px;
+}
+
+.nomination.history h1 {
+  color: #FEE06F;
+  line-height: 0px;
+}
+
+.nomination.history h2 {
+  color: #FEE06F;
+  line-height: 0px;
+}
+
+.ui.centered.grid {
+  white-space: nowrap;
+}
+
+.ui.left.aligned.twelve.wide.column h2 {
+  line-height: 0px;
+}
+
+.ui.left.aligned.twelve.wide.column {
+  padding-left: 100px;
+}

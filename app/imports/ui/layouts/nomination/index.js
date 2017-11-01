@@ -1,0 +1,1 @@
+import './nomination-layout.html';

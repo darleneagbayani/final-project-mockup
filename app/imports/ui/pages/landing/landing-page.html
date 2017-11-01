@@ -1,0 +1,69 @@
+<template name="Landing_Page">
+
+  <div class="landing-section-1">
+    <div class="ui grid">
+
+      <div class="row">
+        <div class="ui right aligned sixteen wide column">
+          {{> Cas_Login }}
+        </div>
+
+      </div>
+      <div class="row">
+        <div class="ui center aligned sixteen wide column">
+          <img class="ui centered medium image" src="https://image.ibb.co/bQAxmR/Untitled_1.png">
+
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="ui centered grid">
+    <div class="center aligned column">
+      <div class="ui five item inverted borderless menu">
+        <a class="item">
+          HOME
+        </a>
+        <a class="item">
+          SCHEDULE
+        </a>
+        <a class="{{isActiveRoute "Nomination_Page"}} item" href="{{pathFor "Nomination_Page" username=routeUserName}}">
+        NOMINATE
+        </a>
+        <a class="item">VOTE
+        </a>
+        <a class="{{isActiveRoute "Winners_Page"}} item" href="{{pathFor "Winners_Page" username=routeUserName}}">
+        WINNERS
+        </a>
+      </div>
+    </div>
+  </div>
+
+  <img class="ui fluid image" src="https://image.ibb.co/cCTxLm/VENDING.jpg">
+
+  <div class="landing-section-2">
+    <div class="ui centered grid">
+      <div class="ui center aligned eleven wide column">
+        Over half of the items in the vending machines on campus are liked by absolutely no one. Based on what’s left in
+        the vending machine at the end of the day, it’s clear to every student and the staff who restocks the vending
+        machine what sells and what doesn’t. Unfortunately, making changes to the vending machine will be at best,
+        random, without input from the students themselves.
+        <br>
+        <br>
+        Introducing Vending Vote: the democratic solution for UH Manoa students to get their favorite items inside of
+        the vending machine. Staff will no longer be guessing as to what next hot item they should be putting for the
+        week, now students will help the staff decide. Students who create an account in Vending Vote will participate
+        in a monthly “voting game."
+      </div>
+  </div>
+  </div>
+
+  <div class="landing-section-5">
+    <div class="ui grid">
+      <div class="ui center aligned sixteen wide column">
+        {{> Cas_Login}}
+      </div>
+    </div>
+  </div>
+
+</template>
